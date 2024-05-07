@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <title>YouTube Comment Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>YouTube Comment Analyzer</h1>
+        <input type="text" id="youtubeLink" placeholder="Enter YouTube link here...">
+        <button onclick="analyzeComments()" id="btn">Analyze</button>
+        <div class="results">
+            <div class="positive" id="positiveComments"></div>
+            <div class="negative"  id="negativeComments"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

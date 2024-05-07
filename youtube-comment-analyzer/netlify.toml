@@ -1,0 +1,3 @@
+[build]
+  command = "node backend/server.js"
+  publish = "frontend"
